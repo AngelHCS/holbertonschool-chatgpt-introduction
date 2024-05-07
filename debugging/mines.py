@@ -74,7 +74,7 @@ class Minesweeper:
                     break
                 if self.check_win():
                     self.print_board(reveal=True)
-                    print("Congratulations! You have cleared the minefield.")
+                    print("Congratulations! You've won the game.")
                     break
             except ValueError:
                 print("Invalid input. Please enter numbers only.")
